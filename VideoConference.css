@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+body{
+    font-family: 'Gabarito', sans-serif;
+    background-color: rgba(0, 0, 0, 0.429);
+    position: fixed;
+}
+.row{
+    margin-top: 4rem;
+}
+ ul li{
+    list-style: none;
+}
+ ul li img{
+    width: 50px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: opacity 0.5s, background 0.5s;
+}
+ ul li img:hover{
+    opacity: 1;
+    background: #4d6181;
+}
+.active{
+    opacity: 1;
+    background: #4d6181;
+}
+.Joined{
+    background: #7d08b7;
+    border-radius: 15px;
+    padding: 30px 40px 50px;
+    color: #fff;
+    height: fit-content;
+    width: fit-content;
+}
+.first{
+    .Joined{
+        background: #084bb7;
+        border-radius: 15px;
+        padding: 30px 40px 50px;
+        color: #fff;
+        height: fit-content;
+        width: fit-content;
+    }
+}
+.joined img{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.img-fluid{
+    border-radius: 15px;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls img{
+    width: 40px;
+    margin: 20px 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.controls .call-icon{
+    width: 70px;
+}
+.controls img:hover{
+    transform: translateY(-10px);
+}
